@@ -7,15 +7,31 @@ import 'package:blog/util/locale_util.dart';
 import 'package:flutter/material.dart';
 import 'package:blog/routes/routes.dart';
 import 'package:blog/util/keyboard_util.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:flutter_conch_plugin/annotation/conch_scope.dart';
+import 'package:flutter_conch_plugin/conch_dispatch.dart';
 
+var useConch = true;
 
 /// @class : main
 /// @date : 2021/08/11
 /// @name : jhf
 /// @description :入口
-void main()  async{
+@ConchScope()
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  if (useConch) {
+    var source = await rootBundle.loadString('assets/conch_data/conch_result.json');
+    ConchDispatch.instance.loadSource(source);
+    await ConchDispatch.instance.callStaticFun(library: 'package:blog/main.dart', funcName: 'mainInner');
+    return;
+  }
+  await mainInner();
+}
+
+mainInner() async {
   await Injection.init();
   runApp(GetMaterialApp(
     getPages: Routes.routePage,
@@ -30,17 +46,21 @@ void main()  async{
         child: child,
       ),
     ),
+
     ///主题颜色
     theme: appThemeData,
+
     ///国际化支持-来源配置
     translations: Messages(),
+
     ///国际化支持-默认语言
     locale: LocaleOptions.getDefault(),
+
     ///国际化支持-备用语言
     fallbackLocale: const Locale('en', 'US'),
 
     defaultTransition: Transition.fade,
     initialBinding: SplashBinding(),
-    home:  const SplashPage(),
+    home: const SplashPage(),
   ));
 }
