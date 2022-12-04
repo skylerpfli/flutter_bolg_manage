@@ -81,7 +81,9 @@ dev_dependencies:
   permission_handler: 8.1.6
 
   flutter_conch_plugin:
-    path: /Users/lipengfei/conch/conch-plugin
+    git:
+      url: https://git.woa.com/flutter_components/FlutterDynamic/conch-plugin.git
+      ref: v1.1.5_pre.1
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

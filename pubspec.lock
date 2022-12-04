@@ -163,10 +163,12 @@ packages:
   flutter_conch_plugin:
     dependency: "direct dev"
     description:
-      path: "/Users/lipengfei/conch/conch-plugin"
-      relative: false
-    source: path
-    version: "1.1.4+1"
+      path: "."
+      ref: "v1.1.5_pre.1"
+      resolved-ref: "31897102d805fc068e54ad40d0e18f0eec8ac0ce"
+      url: "https://git.woa.com/flutter_components/FlutterDynamic/conch-plugin.git"
+    source: git
+    version: "1.1.5"
   flutter_html:
     dependency: "direct dev"
     description:

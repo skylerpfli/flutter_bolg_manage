@@ -46,9 +46,11 @@ packages:
   conch_build:
     dependency: "direct overridden"
     description:
-      path: "../../../conch-build-demo/conch_build"
-      relative: true
-    source: path
+      path: conch_build
+      ref: "v1.1.5_pre.1"
+      resolved-ref: "4b7ab545b0727f9eb21d9559a495d852c4b3fd04"
+      url: "https://git.woa.com/flutter_components/FlutterDynamic/conch-build-demo.git"
+    source: git
     version: "0.0.1"
   fake_async:
     dependency: transitive
@@ -65,10 +67,12 @@ packages:
   flutter_conch_plugin:
     dependency: "direct overridden"
     description:
-      path: "/Users/lipengfei/conch/conch-plugin"
-      relative: false
-    source: path
-    version: "1.1.4+1"
+      path: "."
+      ref: "v1.1.5_pre.1"
+      resolved-ref: "31897102d805fc068e54ad40d0e18f0eec8ac0ce"
+      url: "https://git.woa.com/flutter_components/FlutterDynamic/conch-plugin.git"
+    source: git
+    version: "1.1.5"
   flutter_test:
     dependency: transitive
     description: flutter
@@ -86,8 +90,8 @@ packages:
     description:
       path: "pkg/kernel"
       ref: "conch_3.0.0"
-      resolved-ref: "962ecf4b8c8eb2835baf91099d3e6068b4691f1a"
-      url: "https://tgclub_app:xyApp2017@git.woa.com/flutter_components/FlutterDynamic/dart-sdk.git"
+      resolved-ref: "97522785231bb6fd3cbe7685f1dd8a4ba2a5a273"
+      url: "https://git.woa.com/flutter_components/FlutterDynamic/dart-sdk.git"
     source: git
     version: "0.0.0"
   matcher:
@@ -109,8 +113,8 @@ packages:
     description:
       path: "pkg/meta"
       ref: "conch_3.0.0"
-      resolved-ref: "962ecf4b8c8eb2835baf91099d3e6068b4691f1a"
-      url: "https://tgclub_app:xyApp2017@git.woa.com/flutter_components/FlutterDynamic/dart-sdk.git"
+      resolved-ref: "97522785231bb6fd3cbe7685f1dd8a4ba2a5a273"
+      url: "https://git.woa.com/flutter_components/FlutterDynamic/dart-sdk.git"
     source: git
     version: "1.7.1-dev"
   path:
