@@ -1,7 +1,10 @@
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
+
 /// @class : ProjectPage
 /// @date : 2021/08/23
 /// @name : jhf
 /// @description : 分页数据
+@ConchExclude()
 class ProjectPage {
   ///当前页数
   int curPage = 0;

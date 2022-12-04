@@ -1,8 +1,10 @@
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 /// @class : CollectDetail
 /// @date : 2021/08/27
 /// @name : jhf
 /// @description : 收藏详情
+@ConchExclude()
 class CollectDetail{
 
   String author = "";

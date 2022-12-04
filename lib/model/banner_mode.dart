@@ -1,12 +1,10 @@
-
-
-
-
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 /// @class : Banner
 /// @date : 2021/9/2
 /// @name : jhf
 /// @description : Banner轮播图
+@ConchExclude()
 class Banners {
 
   ///描述

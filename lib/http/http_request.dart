@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 import 'package:blog/model/request_register.dart';
 import 'package:blog/util/save/sp_key.dart';
@@ -11,6 +12,7 @@ import 'package:connectivity/connectivity.dart';
 import 'package:flutter/cupertino.dart';
 
 /// 连接超时时间
+@ConchExclude()
 const int _connectTimeout = 10000;
 
 /// 接收超时时间

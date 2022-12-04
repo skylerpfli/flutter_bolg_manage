@@ -1,10 +1,11 @@
-
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 
 /// @class : Points
 /// @date : 2021/08/23
 /// @name : jhf
 /// @description : 积分明细
+@ConchExclude()
 class Points {
 
   int coinCount = 0;

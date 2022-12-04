@@ -1,4 +1,4 @@
-
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 
 
@@ -7,6 +7,7 @@
 /// @date : 2021/9/14
 /// @name : jhf
 /// @description :Web实例
+@ConchExclude()
 class WebEntity{
 
   /// 标题

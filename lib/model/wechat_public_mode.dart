@@ -1,10 +1,11 @@
-
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 
 /// @class : WechatPublic
 /// @date : 2021/9/23
 /// @name : jhf
 /// @description : 微信公众号信息
+@ConchExclude()
 class WechatPublic{
 
 

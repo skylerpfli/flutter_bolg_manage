@@ -11,6 +11,7 @@ import 'package:blog/model/request_register.dart';
 import 'package:blog/model/wechat_public_mode.dart';
 import 'package:blog/util/function.dart';
 import 'package:blog/util/save/sp_util.dart';
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 typedef SuccessOver<T> = Function(T data, bool over);
 
@@ -18,6 +19,7 @@ typedef SuccessOver<T> = Function(T data, bool over);
 /// @date : 2021/08/25
 /// @name : jhf
 /// @description : 请求仓库
+@ConchExclude()
 class RequestRepository {
   ///登录请求
   /// [account]账号

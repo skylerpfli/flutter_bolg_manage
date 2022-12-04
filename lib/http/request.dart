@@ -5,6 +5,7 @@ import 'package:blog/model/request_result.dart';
 import 'package:blog/util/toast_util.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
+import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 ///
 /// 使用此方法
@@ -17,6 +18,7 @@ import 'package:get/get.dart';
 /// @class : Request
 /// @name : jhf
 /// @description :请求发起
+@ConchExclude()
 class Request {
 
 
