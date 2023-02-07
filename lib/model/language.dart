@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 /// @date : 2021/08/26
 /// @name : jhf
 /// @description :語言
-@ConchExclude()
+
 class Language{
 
   String name = '';

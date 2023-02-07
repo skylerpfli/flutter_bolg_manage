@@ -6,7 +6,7 @@ import 'package:dio/dio.dart';
 /// @class : HttpException
 /// @name : jhf
 /// @description :错误信息处理
-@ConchExclude()
+
 class HttpException {
   static const int success = 200;
   static const int successNotContent = 204;

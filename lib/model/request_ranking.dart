@@ -5,7 +5,7 @@ import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 /// @date : 2021/08/23
 /// @name : jhf
 /// @description : 积分排行榜
-@ConchExclude()
+
 class Ranking {
 
   int coinCount = 0;

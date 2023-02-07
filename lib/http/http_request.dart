@@ -12,7 +12,7 @@ import 'package:connectivity/connectivity.dart';
 import 'package:flutter/cupertino.dart';
 
 /// 连接超时时间
-@ConchExclude()
+
 const int _connectTimeout = 10000;
 
 /// 接收超时时间

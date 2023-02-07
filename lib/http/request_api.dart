@@ -3,7 +3,7 @@ import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 /// @class : RequestApi
 /// @name : jhf
 /// @description :请求接口管理
-@ConchExclude()
+
 class RequestApi{
 
   ///前缀地址

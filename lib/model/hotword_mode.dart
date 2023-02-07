@@ -5,7 +5,7 @@ import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 /// @date : 2021/9/6
 /// @name : jhf
 /// @description : 搜索热词
-@ConchExclude()
+
 class HotWord {
 
   ///链接

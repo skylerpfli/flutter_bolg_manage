@@ -1,7 +1,7 @@
 import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 
 /// <BaseRespR<T> 返回 status code msg data Response.
-@ConchExclude()
+
 class Result<T> {
   int errorCode;
   String errorMsg;

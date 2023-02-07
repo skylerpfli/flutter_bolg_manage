@@ -19,7 +19,7 @@ typedef SuccessOver<T> = Function(T data, bool over);
 /// @date : 2021/08/25
 /// @name : jhf
 /// @description : 请求仓库
-@ConchExclude()
+
 class RequestRepository {
   ///登录请求
   /// [account]账号

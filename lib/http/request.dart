@@ -18,7 +18,7 @@ import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
 /// @class : Request
 /// @name : jhf
 /// @description :请求发起
-@ConchExclude()
+
 class Request {
 
 
