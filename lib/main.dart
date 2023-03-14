@@ -9,7 +9,7 @@ import 'package:blog/routes/routes.dart';
 import 'package:blog/util/keyboard_util.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:flutter_conch_plugin/annotation/conch_scope.dart';
+import 'package:flutter_conch_plugin/annotation/patch_scope.dart';
 import 'package:flutter_conch_plugin/conch_dispatch.dart';
 
 var useConch = true;
@@ -18,7 +18,7 @@ var useConch = true;
 /// @date : 2021/08/11
 /// @name : jhf
 /// @description :入口
-@ConchScope()
+@PatchScope()
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 

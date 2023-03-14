@@ -1,4 +1,4 @@
-import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
+import 'package:flutter_conch_plugin/annotation/patch_exclude.dart';
 
 
 /// @class : UserEntity

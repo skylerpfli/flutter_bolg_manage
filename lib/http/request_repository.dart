@@ -11,7 +11,7 @@ import 'package:blog/model/request_register.dart';
 import 'package:blog/model/wechat_public_mode.dart';
 import 'package:blog/util/function.dart';
 import 'package:blog/util/save/sp_util.dart';
-import 'package:flutter_conch_plugin/annotation/conch_exclude.dart';
+import 'package:flutter_conch_plugin/annotation/patch_exclude.dart';
 
 typedef SuccessOver<T> = Function(T data, bool over);
 
