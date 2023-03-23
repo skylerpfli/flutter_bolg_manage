@@ -79,7 +79,7 @@ dependencies:
     hosted:
       name: flutter_conch_plugin
       url: http://pub.oa.com
-    version: 1.1.5
+    version: 1.1.6
 
 dependency_overrides:
   video_player_android: 2.4.1
